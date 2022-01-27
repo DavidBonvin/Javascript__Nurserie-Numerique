@@ -41,7 +41,32 @@ console.log (min, "sont", convertisseur (min), "segundos");
 }
 console.log("l'élément",0, " de TAB2 est:" ,returne ());
 
-// 
+// function et condition
+// une function que me donne le plus grande de les numbers
+
+let a = 10
+let b = 20
+let c = 15
 
 
 
+
+if ( a>b && a > b){
+    console.log ( a)
+} else if (b>a && b>c){
+    console.log ( b )
+} else if (c > a && c> b) {
+    console.log(c)
+};
+
+
+function leplusgrande (a,b,c) {
+    if ( a>b && a > b){
+        return  a
+    } else if (b>a && b>c){
+        return b
+    } else if (c > a && c> b) {
+        return c
+    };
+}; 
+console.log ("le plus grande est", leplusgrande (a,b,c));

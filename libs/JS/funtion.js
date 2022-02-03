@@ -70,3 +70,52 @@ function leplusgrande (a,b,c) {
     };
 }; 
 console.log ("le plus grande est", leplusgrande (a,b,c));
+
+// trouver  la pharse la plus grande
+
+let phrase1 = "La vie en rose dfsdbsfbfnfnn"
+let phrase2 = "le vin rose, le vin rouge "
+console.log (phrase2.length)
+
+function laplusgrande (a,b) {
+    if (a  > b){
+        return phrase1
+        } else if(b > a){
+          return  phrase2
+        } ;
+
+    };
+console.log (laplusgrande (phrase1.length, phrase2.length))
+
+// solutio de l'exercice pour le profesour
+
+ function phra ( phrase1,phrase2){
+     if (phrase1.length > phrase2.length){
+         return console.log ("ph1 est plus grande que ph2")}
+         else {return console.log ("ph2 est plus grande que ph1")}
+     }
+ 
+
+//28/01/2022
+
+// une funtion que va a parcurir le tableau y lo va mostrar sur la web.
+
+console.log (TAB2);
+
+document.write ("sins function:",TAB2);
+
+function parcur (){
+    return TAB2
+}
+    
+console.log("sins function:", parcur ());
+
+document.write("<br>Avec functions<br>TAB2: <br>", parcur());
+
+
+ 
+function salut (TAB2) {
+    for (let i=0 ; i <TAB2.length ; i++) {
+        document.write (TAB2[i]+ "<br>")
+    }
+};
